@@ -1,35 +1,31 @@
 # 🚙 타요타요
 
----
+<p align="center">
+  <img src ="https://github.com/Hongg7/charge_station/assets/141026603/4e4e245e-4aa6-44fb-9b42-202868f27db9" width ="300" height ="300" />
+</p>
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ef3dceb8-6f79-4093-aa81-51a224573ffc/49e0df45-6a39-4e44-849c-579973ebb3c6/Untitled.png)
+[전기차 타요타요 바로가기](http://ec2-52-79-210-46.ap-northeast-2.compute.amazonaws.com:8080/charge_station/)
 
-                                                            [전기차 타요타요 바로가기](http://ec2-52-79-210-46.ap-northeast-2.compute.amazonaws.com:8080/charge_station/)
 
 # 📖 목차
 
----
+### [🚙 Introduction](#Introduction)
 
-### [🚙 Introduction](https://www.notion.so/0ddf89baead0487f915865a0f8121eaf?pvs=21)
+- [🚀 프로젝트 소개](#프로젝트-소개)
+- [프로젝트 목표](#프로젝트-목표)
+- [👨‍👩‍👧‍👦 팀원 ](#팀원)
 
-- ‣
-- ‣
-- ‣
-- ‣
+### [🖥️ 주요 기능 소개](#주요-기능-소개)
 
-### [🖥️ 주요 기능 소개](https://www.notion.so/0ddf89baead0487f915865a0f8121eaf?pvs=21)
+### [🖊️ 타요타요 준비 과정](#타요타요-준비-과정)
 
-### [🖊️ 타요타요 준비 과정](https://www.notion.so/0ddf89baead0487f915865a0f8121eaf?pvs=21)
+- [기술스택](#기술스택)
+- [📚 ERD](#ERD)
+- [서비스 아키텍쳐](#서비스-아키텍쳐)
 
-- ‣
-- ‣
-- ‣
+## Introduction
 
-## 🚙  Introduction
-
----
-
-### 🚀 프로젝트 소개
+### 프로젝트 소개
 
 <aside>
 💡 서울시의 전기 차 충전소 위치를 오픈 api를 통해 사용자가 쉽게 알 수 있도록 하는 웹페이지
@@ -58,60 +54,54 @@
  전기차 사용자들은 정보를 더욱 쉽게 얻을 수 있으며, 전기차 충전소 운영자들은 자신의 시설을 더욱 널리 알릴 수 있는 기회를 얻을 수 있습니다. 
 ```
 
-### ⏰ 개발 기간 및 인원
+### 개발 기간 및 인원
 
 ```
 23.12.21 ~ 24.01.31
 백엔드 7명
 ```
 
-### 👨‍👩‍👧‍👦 팀원
+### 팀원
 
 | Backend | Backend | Backend | Backend | Backend | Backend | Backend |
 | --- | --- | --- | --- | --- | --- | --- |
 | 사진 |  |  |  |  |  |  |
 | 깃허브링크 |  |  |  |  |  |  |
 
-## 🖥️ 주요 기능 소개
+## 주요 기능 소개
+<p align="center">
+  <img src="https://github.com/Hongg7/charge_station/assets/110872008/725ab82f-e231-4c28-9e01-b7b938e56e35">
+</p>
 
-### **사용자 위치 정보를 바탕으로 주위 전기차 충전소 정보 제공 기능**
+### 사용자 위치 정보를 바탕으로 주위 전기차 충전소 정보 제공 기능
 
 지도 위에 사용 가능 또는 사용 불가능 정보 제공 및 마커 클릭 시 요약 정보 제공
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ef3dceb8-6f79-4093-aa81-51a224573ffc/bb32491d-f777-4659-993b-e7ee3b26ecf2/Untitled.png)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ef3dceb8-6f79-4093-aa81-51a224573ffc/2f632213-4b85-43d8-8f83-a8c8696dd4a8/Untitled.png)
+| <img src="https://github.com/Hongg7/charge_station/assets/110872008/bdcf3042-401f-4ba9-8a34-a3f4647285e9" width="1000" height="700"> | <img src="https://github.com/Hongg7/charge_station/assets/110872008/59500257-b646-49d8-8098-c65728ae877a" width="1000" height="700"> |
+|:--:|:--:|
 
 ### 충전소 검색 기능
 
 키워드 검색 및 필터링 검색 기능을 통해 충전소 정보 제공
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ef3dceb8-6f79-4093-aa81-51a224573ffc/370d53de-1153-465a-8c40-241ff75a80e4/Untitled.png)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ef3dceb8-6f79-4093-aa81-51a224573ffc/d75cc842-a14f-421b-a668-9e1ef26403e2/Untitled.png)
+| <img src="https://github.com/Hongg7/charge_station/assets/110872008/66a98a2b-0434-4552-96c7-ead256577d90" width="700" height="700"> | <img src="https://github.com/Hongg7/charge_station/assets/110872008/5b008258-24e2-48be-af66-a727ab940a28" width="700" height="700"> |
+|:--:|:--:|
 
 ### 충전소 추천 기능
 
 사용자 위치 정보 기준으로 1km 안에 있는 충전소 정보 제공
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ef3dceb8-6f79-4093-aa81-51a224573ffc/e80e3b1e-261d-4bcd-bf9d-f35d017de9da/Untitled.png)
+<img src="https://github.com/Hongg7/charge_station/assets/110872008/b9c720f5-d818-4b37-a657-1924fd235ddd" width="700" height="500">
 
-## 🖊️ 타요타요 준비 과정
-
----
+## 타요타요 준비 과정
 
 ### 기술스택
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ef3dceb8-6f79-4093-aa81-51a224573ffc/58e2162f-621e-4707-b408-d9f1acbc892d/Untitled.png)
+<img src="https://github.com/Hongg7/charge_station/assets/110872008/04a7da54-7a01-4879-82a5-08d48f8d5b4b" width="700" height="500">
 
-### 📚 ERD
+### ERD
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ef3dceb8-6f79-4093-aa81-51a224573ffc/804c92a1-32cc-473c-93da-9fe2c71dc576/Untitled.png)
+<img src="https://github.com/Hongg7/charge_station/assets/110872008/da1bfca6-701d-4296-90f9-9043a16ee8cd" width="700" height="500">
 
 ### 서비스 아키텍쳐
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/ef3dceb8-6f79-4093-aa81-51a224573ffc/670c9b91-2055-4347-bfd9-e1bc70966efa/Untitled.png)
+<img src="https://github.com/Hongg7/charge_station/assets/110872008/290a398b-46c9-42a3-960a-ced8bf6d697d" width="700" height="500">
 
-### 인스턴스 중지 후 다시 실행시킬 때
-
-- ip서버 주소를 다시 재할당되기 때문에
