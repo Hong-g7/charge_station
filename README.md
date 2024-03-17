@@ -55,17 +55,21 @@
 | 사진 |  |  |  |  |  |  |
 | 깃허브링크 |  |  |  |  |  |  |
 
-## 주요 기능 소개
-<p align="center">
-  <img src="https://github.com/Hongg7/charge_station/assets/110872008/725ab82f-e231-4c28-9e01-b7b938e56e35">
-</p>
+## <h1>주요 기능 소개</h1>
+
+### 실시간 API를 통한 충전소 상태 정보 표시
+
+지도 위에 사용 가능 또는 사용 불가능한 정보에 대한 마커를 제공하며, 마커를 클릭하면 요약 정보가 제공됩니다.
+| <img src="https://github.com/Hongg7/charge_station/assets/141026603/1d20607d-460e-430a-9e24-6f76d92cc45f" width="500" height="300"> | <img src="https://github.com/Hongg7/charge_station/assets/141026603/29227f5e-9f74-4866-b467-32592948914f" width="500" height="300"> |
+|:--:|:--:|
+
+
 
 ### 사용자 위치 정보를 바탕으로 주위 전기차 충전소 정보 제공 기능
 
 지도 위에 사용 가능 또는 사용 불가능 정보 제공 및 마커 클릭 시 요약 정보 제공
-| <img src="https://github.com/Hongg7/charge_station/assets/110872008/bdcf3042-401f-4ba9-8a34-a3f4647285e9" width="1000" height="700"> | <img src="https://github.com/Hongg7/charge_station/assets/110872008/59500257-b646-49d8-8098-c65728ae877a" width="1000" height="700"> |
+| <img src="https://github.com/Hongg7/charge_station/assets/141026603/bfc3b108-e7a7-461a-adc2-0c9760c960e2" width="500" height="300"> | <img src="https://github.com/Hongg7/charge_station/assets/110872008/5b008258-24e2-48be-af66-a727ab940a28" width="500" height="300"> |
 |:--:|:--:|
-
 ### 충전소 검색 기능
 
 키워드 검색 및 필터링 검색 기능을 통해 충전소 정보 제공
