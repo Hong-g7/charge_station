@@ -66,16 +66,21 @@
 ## 타요타요 준비 과정
 
 ### 기술스택
+
 <p align="center">
-<img src="https://github.com/Hongg7/charge_station/assets/110872008/04a7da54-7a01-4879-82a5-08d48f8d5b4b" width="600" height="300">
+  <img src="https://github.com/Hongg7/charge_station/assets/110872008/04a7da54-7a01-4879-82a5-08d48f8d5b4b" width="600" height="300">
 </p>
+
 ### ERD
+
 <p align="center">
-<img src="https://github.com/Hongg7/charge_station/assets/110872008/da1bfca6-701d-4296-90f9-9043a16ee8cd" width="600" height="300">
+  <img src="https://github.com/Hongg7/charge_station/assets/110872008/da1bfca6-701d-4296-90f9-9043a16ee8cd" width="600" height="300">
 </p>
+
 ### 서비스 아키텍쳐
+
 <p align="center">
-<img src="https://github.com/Hongg7/charge_station/assets/110872008/648ae9fe-144c-4e0e-9d9c-e2435f000cb7" width="600" height="300">
+  <img src="https://github.com/Hongg7/charge_station/assets/110872008/648ae9fe-144c-4e0e-9d9c-e2435f000cb7" width="600" height="300">
 </p>
 
 ### 개발 기간 및 인원
