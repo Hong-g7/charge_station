@@ -41,46 +41,25 @@
 이에 저희는 사용자들에게 서울시 내에 있는 충전소 정보를 제공하기 위해 이 프로젝트를 시작하였습니다.
 ```
 
-### 개발 기간 및 인원
-
-```
-23.12.21 ~ 24.01.31
-백엔드 7명
-```
-
-### 팀원
-
-| Backend | Backend | Backend | Backend | Backend | Backend | Backend |
-| :--: | :--: | :--: | :--: | :--: | :--: | :--: |
-| <img src="https://avatars.githubusercontent.com/u/110872008?v=4" width="130" height="130"> | <img src="https://avatars.githubusercontent.com/u/141026603?v=4" width="130" height="130"> | <img src="https://avatars.githubusercontent.com/u/102129027?v=4" width="130" height="130"> | <img src="https://avatars.githubusercontent.com/u/106435638?v=4" width="130" height="130"> | <img src="https://avatars.githubusercontent.com/u/57277646?v=4" width="130" height="130"> | <img src="https://avatars.githubusercontent.com/u/145638699?v=4" width="130" height="130"> | <img src="https://avatars.githubusercontent.com/u/145637253?v=4" width="130" height="130"> 
-| [고명보](https://github.com/MyeongBoKo) | [권홍](https://github.com/Hong-g7) | [고서연](https://github.com/goxeoni) | [박주형](https://github.com/parkhyeong) | [장현준](https://github.com/jhj010311) | [조나단](https://github.com/jonathan0620) | [조상권](https://github.com/JOSANGKWON) |
-
 ## <h1>주요 기능 소개</h1>
 
-### 실시간 API를 통한 충전소 상태 정보 표시
+### 📍 실시간 API를 통한 충전소 상태 정보 표시 
 
-지도 위에 사용 가능 또는 사용 불가능한 정보에 대한 마커를 제공하며, 마커를 클릭하면 요약 정보가 제공됩니다.
+지도 위에 사용 가능 또는 사용 불가능한 정보에 대한 마커를 제공하며, 마커를 클릭하면 요약 정보를 제공합니다.
 | <img src="https://github.com/Hongg7/charge_station/assets/141026603/1d20607d-460e-430a-9e24-6f76d92cc45f" width="500" height="300"> | <img src="https://github.com/Hongg7/charge_station/assets/141026603/29227f5e-9f74-4866-b467-32592948914f" width="500" height="300"> |
 |:--:|:--:|
 
 
-
-### 사용자 위치 정보를 바탕으로 주위 전기차 충전소 정보 제공 기능
-
-지도 위에 사용 가능 또는 사용 불가능 정보 제공 및 마커 클릭 시 요약 정보 제공
-| <img src="https://github.com/Hongg7/charge_station/assets/141026603/bfc3b108-e7a7-461a-adc2-0c9760c960e2" width="500" height="300"> | <img src="https://github.com/Hongg7/charge_station/assets/110872008/5b008258-24e2-48be-af66-a727ab940a28" width="500" height="300"> |
+### 🗺️ 사용자 위치 기반 충전소 추천 서비스 
+사용자 주변 1km이내에 있는 충전소 별 거리가 가까운 순으로 충전소 추천 서비스를 제공합니다.
+| <img src="https://github.com/Hongg7/charge_station/assets/141026603/7d70accd-05df-4346-8920-abcecc127d56" width="500" height="300"> | <img src="https://github.com/Hongg7/charge_station/assets/141026603/4e4c4e75-31b1-49f2-9e1d-7fe9fda14161" width="500" height="300"> |
 |:--:|:--:|
-### 충전소 검색 기능
+
+### 🔎 충전소 검색 기능
 
 키워드 검색 및 필터링 검색 기능을 통해 충전소 정보 제공
-| <img src="https://github.com/Hongg7/charge_station/assets/110872008/66a98a2b-0434-4552-96c7-ead256577d90" width="700" height="700"> | <img src="https://github.com/Hongg7/charge_station/assets/110872008/5b008258-24e2-48be-af66-a727ab940a28" width="700" height="700"> |
+| <img src=" " width="500" height="300"> | <img src=" " width="500" height="300"> |
 |:--:|:--:|
-
-### 충전소 추천 기능
-
-사용자 위치 정보 기준으로 1km 안에 있는 충전소 정보 제공
-
-<img src="https://github.com/Hongg7/charge_station/assets/110872008/b9c720f5-d818-4b37-a657-1924fd235ddd" width="700" height="500">
 
 ## 타요타요 준비 과정
 
@@ -95,4 +74,19 @@
 ### 서비스 아키텍쳐
 
 <img src="https://github.com/Hongg7/charge_station/assets/110872008/290a398b-46c9-42a3-960a-ced8bf6d697d" width="700" height="500">
+
+### 개발 기간 및 인원
+
+```
+23.12.21 ~ 24.01.31
+백엔드 7명
+```
+
+### 팀원
+
+| Backend | Backend | Backend | Backend | Backend | Backend | Backend |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| <img src="https://avatars.githubusercontent.com/u/110872008?v=4" width="130" height="130"> | <img src="https://avatars.githubusercontent.com/u/141026603?v=4" width="130" height="130"> | <img src="https://avatars.githubusercontent.com/u/102129027?v=4" width="130" height="130"> | <img src="https://avatars.githubusercontent.com/u/106435638?v=4" width="130" height="130"> | <img src="https://avatars.githubusercontent.com/u/57277646?v=4" width="130" height="130"> | <img src="https://avatars.githubusercontent.com/u/145638699?v=4" width="130" height="130"> | <img src="https://avatars.githubusercontent.com/u/145637253?v=4" width="130" height="130"> 
+|  [권홍](https://github.com/Hong-g7) | [고명보](https://github.com/MyeongBoKo)| [고서연](https://github.com/goxeoni) | [박주형](https://github.com/parkhyeong) | [장현준](https://github.com/jhj010311) | [조나단](https://github.com/jonathan0620) | [조상권](https://github.com/JOSANGKWON) |
+
 
