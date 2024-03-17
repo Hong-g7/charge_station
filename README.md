@@ -8,7 +8,7 @@
   전기차 타요타요 바로가기
 </p>
 </a>
-<a href="https://www.youtube.com/watch?v=azy5g-g5CeA">
+<a href="ㅍ">
 <p align="center">
   시연영상
 </p>
@@ -58,8 +58,8 @@
 ### 🔎 충전소 검색 기능
 
 키워드 검색 및 필터링 검색 기능을 통해 충전소 정보 제공
-| <img src=" " width="500" height="300"> | <img src=" " width="500" height="300"> |
-|:--:|:--:|
+
+ <img src="https://github.com/Hongg7/charge_station/assets/141026603/bcf6b51d-9475-4a5b-9e5b-9bbb16b00620" width="600" height="400"> 
 
 ## 타요타요 준비 과정
 
